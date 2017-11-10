@@ -1,0 +1,29 @@
+
+// BOOTSTRAP OVERRIDES
+
+.container-fluid {
+    padding: 0;
+}
+
+.nav.justify-content-end {
+    background-color: transparent;
+}
+
+.nav-item {
+    margin: 30px;
+    a {
+        color: $white;
+    }
+}
+
+.nav-link {
+    text-transform: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.btn.btn-raised.btn-primary{
+    padding: 14px 36px;
+    border-radius: 3px;
+    background-color: $aqua;
+}

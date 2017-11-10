@@ -1,0 +1,67 @@
+
+// CUSTOM CLASSES
+
+.center-content {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/surf/ola3.jpg');
+    padding-top: 14em;
+    padding-bottom: 15em;
+  }
+
+  .home {
+    position: relative;
+    width: 100%;
+  }
+
+  .navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .about-us {
+    position: relative;
+    width: 100%;
+    background: $charcoal;
+  }
+
+  .half-box {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .half-box-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+  }
+
+  .img-medium {
+    max-height: 150px;
+    max-width: 300px;
+  }
+
+  .title {
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+  }
+
+  .white {
+    color: $white;
+  }
+
+  .bordered {
+    border: 2px solid $white;
+}
